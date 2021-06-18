@@ -17,7 +17,7 @@ from django.db.models.sql.where import WhereNode
 from .compatibility import get_postgres_version, get_model_fields, returning_available, string_types
 from .set_functions import AbstractSetFunction, NowSetFunction
 from .types import TOperators, TFieldNames, TUpdateValues, TSetFunctions, TOperatorsValid, TUpdateValuesValid, \
-    TSetFunctionsValid, TDatabase, FieldDescriptor, AbstractFieldFormatter
+    TSetFunctionsValid, FieldDescriptor, AbstractFieldFormatter  # TDatabase
 from .utils import batched_operation, is_auto_set_field
 
 

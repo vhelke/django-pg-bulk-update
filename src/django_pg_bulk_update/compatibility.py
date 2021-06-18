@@ -10,7 +10,7 @@ import django
 from django.db import connection, connections, models, migrations
 from django.db.models import Model, Field, BigIntegerField, IntegerField
 
-from .types import TDatabase
+# from .types import TDatabase
 
 
 # six.string_types replacement in order to remove dependency

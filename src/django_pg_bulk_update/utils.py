@@ -10,7 +10,7 @@ from django.db.models.sql.subqueries import UpdateQuery
 from typing import TypeVar, Set, Any, Tuple, Iterable, Callable, Optional, List
 
 from .compatibility import hstore_serialize, hstore_available, get_field_db_type, import_pg_field_or_dummy
-from .types import TDatabase
+# from .types import TDatabase
 
 logger = logging.getLogger('django-pg-bulk-update')
 

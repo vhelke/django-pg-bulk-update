@@ -8,7 +8,7 @@ from django.db.models import Field, Model
 
 from .compatibility import get_postgres_version, jsonb_available, Postgres94MergeJSONBMigration, hstore_serialize, \
     hstore_available, import_pg_field_or_dummy, tz_utc
-from .types import TDatabase, AbstractFieldFormatter
+from .types import AbstractFieldFormatter  # TDatabase
 from .utils import get_subclasses, format_field_value
 
 # When doing increment operations, we need to replace NULL values with something
